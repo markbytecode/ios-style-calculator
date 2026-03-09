@@ -84,33 +84,27 @@ body {
   padding: 10px 0px 10px 0px;
 }
 
-.previous-operand {
-  font-size: 1.2rem;
+.previous-operand,
+.current-operand {
   font-weight: 300;
-  color: #e4ebf2;
-  min-height: 2.25rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
 
   display: flex;
   align-items: center;
   justify-content: end;
+}
+
+.previous-operand {
+  font-size: 1.2rem;
+  color: #e4ebf2;
+  min-height: 2.25rem;
 }
 
 .current-operand {
   font-size: 2.8rem;
-  font-weight: 300;
-  text-align: right;
   min-height: 4rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: end;
-}
-
-.previous-operand,
-.current-operand {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: clip;
 }
 
 /* numbers */

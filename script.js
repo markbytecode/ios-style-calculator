@@ -211,9 +211,8 @@ class Calculator {
 
     if (!Number.isFinite(num)) return 'Error';
 
-    const limit = 10 ** this.maxDigits;
-    if (Math.abs(num) >= limit) {
-      // means: if the number reaches the first value that requires more than 9 digits, switch to exponential notation.
+    const digits = num.toString().replace('.', '').replace('-', '');
+    if (digits.length > this.maxDigits) {
       return num.toExponential(4);
     }
 
