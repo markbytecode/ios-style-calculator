@@ -1,5 +1,7 @@
 # iOS-Style Calculator
 
+🔗 [Live Demo](https://markbytecode.github.io/ios-style-calculator/)
+
 A calculator inspired by the `iOS calculator`, built with `HTML, CSS, and Vanilla JavaScript`.  
 The project focuses on clean architecture, correct calculator behavior, and handling common edge cases found in real calculator applications.
 
@@ -113,7 +115,7 @@ Button types are detected using `HTML data attributes`:
 ## How to Run
 
 1. Clone the repository
-   git clone <your-repository-url>
+   git clone https://github.com/markbytecode/ios-style-calculator.git
 
 2. Open `index.html` in your browser.
    No build tools or dependencies are required.
